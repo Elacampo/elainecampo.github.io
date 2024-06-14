@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     } else {
         // Si no hay usuario almacenado y no estamos en login.html, redirigir a login.html
-        if (paginaActual !== 'login.html') {
+        if (paginaActual !== 'login.html' && paginaActual !== 'register.html') {
             window.location.href = './login.html';
         }
     }
