@@ -1,0 +1,76 @@
+{
+  "usuarios" : [
+    {
+      "id": "LZ1",
+      "username": "carlosg123",
+      "password": "contraseña1",
+      "nombre": "Carlos",
+      "apellido": "González",
+      "rol": 1
+    },
+    {
+      "id": "KX2",
+      "username": "mariaf456",
+      "password": "contraseña2",
+      "nombre": "María",
+      "apellido": "Fernández",
+      "rol": 2
+    },
+    {
+      "id": "MJL",
+      "username": "luism789",
+      "password": "contraseña3",
+      "nombre": "Luis",
+      "apellido": "Martínez",
+      "rol": 2
+    },
+    {
+      "id": "POZ",
+      "username": "anar012",
+      "password": "contraseña4",
+      "nombre": "Ana",
+      "apellido": "Rodríguez",
+      "rol": 1
+    },
+    {
+      "id": "POO",
+      "username": "jorgel345",
+      "password": "contraseña5",
+      "nombre": "Jorge",
+      "apellido": "López",
+      "rol": 2
+    }
+  ],
+
+  "productos" : [
+      {
+        "nombre": "Paracetamol",
+        "categoria": "Analgésicos",
+        "stock": 150,
+        "precio_cop": 14000,
+        "fecha_vencimiento": "2025-12-31"
+      },
+      {
+        "nombre": "Ibuprofeno",
+        "categoria": "Analgésicos",
+        "stock": 100,
+        "precio_cop": 17000,
+        "fecha_vencimiento": "2024-09-30"
+      },
+      {
+        "nombre": "Vitamina C",
+        "categoria": "Vitaminas",
+        "stock": 200,
+        "precio_cop": 11000,
+        "fecha_vencimiento": "2023-06-30"
+      },
+      {
+        "nombre": "Loratadina",
+        "categoria": "Antihistamínicos",
+        "stock": 80,
+        "precio_cop": 20400,
+        "fecha_vencimiento": "2024-08-15"
+      }
+  ]
+  
+}

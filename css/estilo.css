@@ -1,0 +1,123 @@
+/* Reset de estilos y variables globales */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos generales */
+body {
+    background-color: #f8f9fa; /* Color de fondo */
+    color: #333; /* Color de letra */
+    font-family: Arial, sans-serif; /* Tipo de letra */
+    line-height: 1.6; /* Espaciado entre líneas */
+}
+
+header {
+    background-color: #007bff; /* Color de fondo */
+    color: white; /* Color de letra */
+    text-align: center; /* Centrado */
+    padding: 15px 0; /* Espaciado interno */
+    margin-bottom: 20px; /* Espaciado inferior */
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between; /* Espaciado equitativo entre elementos */
+    align-items: center; /* Alineación vertical centrada */
+    background-color: #007bff; /* Color de fondo del header */
+    padding: 10px 20px; /* Espaciado interno */
+}
+
+.header-container h1 {
+    color: white; /* Color de letra */
+    font-size: 24px; /* Tamaño de letra del título */
+    margin: 0; /* Eliminar margen por defecto */
+}
+
+nav ul {
+    list-style-type: none; /* Eliminar viñetas de la lista */
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block; /* Mostrar elementos de lista en línea */
+}
+
+nav ul li a {
+    color: white; /* Color de letra */
+    text-decoration: none; /* Quitar subrayado del enlace */
+    font-size: 16px; /* Tamaño de letra de los enlaces */
+    padding: 10px; /* Espaciado interno */
+    transition: background-color 0.3s ease; /* Transición suave del color de fondo al pasar el ratón */
+}
+
+nav ul li a:hover {
+    background-color: #0056b3; /* Cambiar color de fondo al pasar el ratón */
+}
+
+.nav ul li.cta {
+    margin-left: auto; /* Mover los enlaces de inicio de sesión y registro hacia la derecha */
+}
+
+.imagen {
+    text-align: center; /* Centrado */
+    margin-bottom: 20px; /* Espaciado inferior */
+}
+
+.imagen img {
+    width: 100%; /* Ancho completo */
+    height: auto; /* Altura automática */
+    max-width: 400px; /* Ancho máximo */
+    border-radius: 20px;
+}
+
+.imagen audio {
+    margin-top: 10px; /* Espaciado superior */
+}
+
+.contenedor {
+    display: flex; /* Aplica flexbox para ubicar */
+    justify-content: space-around; /* Espaciado alrededor */
+    margin-bottom: 30px; /* Espaciado inferior */
+}
+
+.item {
+    flex: 1; /* Ocupa el espacio disponible */
+    margin: 0 10px; /* Margen entre elementos */
+}
+
+.parrafo {
+    font-size: 16px; /* Tamaño de letra */
+    margin-bottom: 20px; /* Espaciado inferior */
+}
+
+.tabla {
+    margin: 0 auto; /* Centrar la tabla */
+    width: 100%; /* Ancho completo */
+}
+
+.mitabla {
+    border-collapse: collapse; /* Colapso de bordes */
+    width: 100%; /* Ancho completo */
+}
+
+.mitabla th, .mitabla td {
+    border: 1px solid #ccc; /* Borde de celdas */
+    padding: 8px; /* Espaciado interno */
+    text-align: center; /* Centrado de texto */
+}
+
+iframe {
+    width: 100%; /* Ancho completo */
+    height: 315px; /* Altura fija */
+    margin-bottom: 20px; /* Espaciado inferior */
+}
+
+.pie {
+    background-color: #007bff; /* Color de fondo */
+    color: white; /* Color de letra */
+    text-align: center; /* Centrado */
+    padding: 15px 0; /* Espaciado interno */
+}

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registro de usuario</title>
+	<link rel="stylesheet" type="text/css" href="/css/registro.css">
+	<link href="https://fonts.googleapis.com/css?family=Poppins:600&display=swap" rel="stylesheet">
+	<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+	<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+	<img class="wave" src="/img/wave.png">
+	<div class="container">
+        
+		<div class="img">   
+			<img src="/img/Pharmacist-bro.svg">
+		</div>
+		<div class="login-content">
+			
+			<form id="registroForm">
+                <div class="titulos">
+                    <img src="/img/avatar.svg"> 
+				    <h2 class="title">Registrate</h2>
+                </div>
+				
+
+           		<div class="input-div one correo" id="box-email">
+           		   <div class="i">
+						<i class='bx bxs-user'></i>
+           		   </div>
+           		   <div class="div">
+           		   		<h5>Usuario</h5>
+           		   		<input type="text" class="input" id="username">
+           		   </div>
+           		</div>
+
+                <div class="name-cel">
+
+                    <div class="input-div name">
+                        <div class="i"><i class='bx bxs-id-card'></i></div>
+                        <div class="div">
+                            <h5>Nombre</h5>
+                            <input type="text" class="input" id="nombre">
+                        </div>
+                    </div>
+
+                    <div class="input-div name">
+                        <div class="i"><i class='bx bxs-id-card'></i></i></div>
+                        <div class="div">
+                            <h5>Apellido</h5>
+                            <input type="text" class="input" id="apellido">
+                        </div>
+                    </div>
+                </div>
+
+           		<div class="input-div pass" id="box-psw" >
+           		   <div class="i"> 
+						<i class='bx bxs-lock-alt'></i>
+           		   </div>
+           		   <div class="div">
+           		    	<h5>Contraseña</h5>
+           		    	<input type="password" class="input" id="password">
+            	   </div>
+            	</div>
+                
+            	<input type="submit" class="btn" value="Registrate">
+				<div class="to-rgs">
+					<h5>¿Ya tienes una cuenta?</h5>
+					<a href="./login.html">Inicia sesión</a>
+				</div>
+				
+            </form>
+            
+        </div>
+    </div>
+	<script src="../js/auth.js"></script>
+	<script src="../js/validarRegistro.js"></script>
+    <script type="text/javascript" src="../js/registro.js"></script>
+</body>
+</html>

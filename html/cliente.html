@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio Cliente</title>
+    <link href="https://fonts.googleapis.com/css?family=Poppins:600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="../css/cliente.css">
+    <link rel="stylesheet" href="../css/estiloDatos.css">
+</head>
+<body>
+
+    <header>
+        <h1>Bienvenido Cliente</h1>
+        <button id="cerrarSesionBtn">Cerrar sesión</button>
+    </header>
+
+    <section class="hero" >
+
+        <div class="texto">
+            <h1>Explora Nuestra Colección de Productos </h1>
+        <p>
+            Bienvenido a nuestra plataforma donde podrás descubrir una variedad de productos y encontrar lo que necesitas con facilidad.
+        </p>
+
+        </div>
+        <video muted autoplay loop>
+            <source src="../video/medicina.mp4" type="video/mp4">
+        </video>
+        <div class="capa">
+
+        </div>
+    </section>
+
+
+
+    <section>
+
+        <div class="tabla">
+
+            <div class="cabecera">
+                <h2>Productos de la farmacia</h2>
+                <div>
+                    <button id="botonCargarMenos">Página anterior</button>
+                    <button id="botonCargarMas">Página siguiente</button>
+                </div>
+            </div>
+            
+
+            <table>
+                
+                <thead>
+                    <tr>
+                        <th>Nombre</th>
+                        <th>Categoria</th>
+                        <th>Stock</th>
+                        <th>Precio</th>
+                        <th>Fecha de vencimiento</th>
+                    </tr>
+                </thead>
+
+                <tbody>                  
+                </tbody>
+            </table>
+
+        </div>
+
+        
+
+        
+    </section>
+
+
+    <footer>
+        <h3>Elaine Campo</h3>
+        <h3>Barranquilla - Colombia</h3>
+    </footer>
+
+
+    
+
+    <script src="../js/infoProduct.js"></script>
+    <script src="../js/auth.js"></script>
+    <script src="../js/cerrarSesion.js"></script>
+</body>
+</html>

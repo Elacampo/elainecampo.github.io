@@ -1,0 +1,109 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    background-color:blue;
+    color: white;
+    padding: 1%;
+}
+
+footer{
+    text-align: center;
+    border: 2px blue solid;
+    background-color: blue;
+    color: white;
+    margin-top: auto;
+}
+
+html, body{
+    height: 100%;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    padding: 1%;
+
+}
+
+section .tabla{
+    width: 80%;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #dddddd;
+    padding: 8px;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.cabecera{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#botonCargarMenos,
+#botonCargarMas {
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 15px;
+}
+
+#botonCargarMenos:hover,
+#botonCargarMas:hover {
+    background-color: #0056b3;
+}
+
+#botonCargarMenos:disabled,
+#botonCargarMas:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+}
+
+
+#cerrarSesionBtn {
+    background-color: #f44336; 
+    color: white; 
+    border: none; 
+    padding: 10px 20px; 
+    font-size: 15px;
+    cursor: pointer; 
+    border-radius: 4px;
+    transition: background-color 0.3s ease; 
+    width: 10%;
+    align-self: center;
+}
+
+#cerrarSesionBtn:hover {
+    background-color: #d32f2f;
+}

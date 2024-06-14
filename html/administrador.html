@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/administrador.css">
+    <link rel="stylesheet" href="../css/estiloDatos.css">
+
+    <title>Inicio Admin</title>
+</head>
+<body>
+
+    <header>
+        <h1>Bienvenido ADMINISTRADOR</h1>
+        <button id="cerrarSesionBtn">Cerrar sesión</button>
+    </header>
+
+    <section>
+        <div class="container-info">
+
+            <div class="texto">
+                <h2 style="margin-bottom: 10px;">Bienvenido a la Página de Administración</h2>
+                <p>En esta página, como administrador, tienes acceso a varias funcionalidades importantes:</p>
+                <ul>
+                    <li>Visualizar y gestionar la lista de usuarios registrados en el sistema.</li>
+                    <li>Navegar entre las diferentes páginas de usuarios para revisar sus datos.</li>
+                    <li>Acceder a información detallada sobre cada usuario, incluyendo su nombre, apellido, nombre de usuario, y rol.</li>
+                </ul>
+                <p>El rol de administrador implica responsabilidades clave como la gestión de usuarios, la supervisión de actividades dentro del sistema, y la garantía de que el sistema funcione de manera eficiente y segura.</p>
+                <p>Utiliza los botones de navegación para moverte entre las páginas de usuarios y asegúrate de cerrar sesión cuando hayas terminado tus tareas.</p>
+            </div>
+
+            <div class="imagen">
+                <img src="../img/admin.avif" alt="">
+            </div>
+        </div>
+
+    </section>
+
+    <section class="info-usuarios">
+
+        <div class="tabla">
+
+            <div class="cabecera">
+                <h2>Usuarios en el sistema</h2>
+                <div>
+                    <button id="botonCargarMenos">Página anterior</button>
+                    <button id="botonCargarMas">Página siguiente</button>
+                </div>
+            </div>   
+            
+            <table>
+                
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Nombre</th>
+                        <th>Apellido</th>
+                        <th>Usuario</th>
+                        <th>Rol</th>
+                    </tr>
+                </thead>
+
+                <tbody>     
+                </tbody>
+            </table>
+
+        </div>
+
+    </section>
+
+    <footer>
+        <h3>Elaine Campo</h3>
+        <h3>Barranquilla - Colombia</h3>
+    </footer>
+
+
+
+
+    
+
+    <script src="../js/infoUsers.js"></script>
+    <script src="../js/auth.js"></script>
+    <script src="../js/cerrarSesion.js"></script>
+</body>
+
+</html>

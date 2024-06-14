@@ -1,0 +1,22 @@
+.container-info{
+    display: flex;
+    margin: 1%;
+    gap: 2.5rem;
+    line-height: 2.1rem;
+    border-bottom: 3px black solid;
+}
+
+.imagen img{
+    border-radius: 1.5rem;
+    width: 400px;
+    height: 350px;
+}
+
+.info-usuarios{
+    margin-bottom: 2rem;
+}
+
+ul {
+    padding-left: 2rem;
+}
+
